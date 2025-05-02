@@ -44,6 +44,7 @@
     position: relative;
     display: inline-block;
     cursor: pointer;
+    font-family: "Chokokutai";
 }
 
 .popuptext {
@@ -65,4 +66,10 @@
     visibility: visible;
     opacity: 1;
     background-color: #e13f8d;
+}
+
+.box{
+    box-sizing:border-box;
+    Width: 200px;
+    height:auto;
 }

@@ -6,6 +6,7 @@
 }
 
 .bg{
+    overflow-x:hidden;
     animation: mymove 2s infinite;
 }
 

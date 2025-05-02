@@ -103,15 +103,4 @@
     height:auto;
 }
 
-.random-flobox{
-    background-color:aquamarine;
-    position: center;
-    text-align:center;
-    /* Generate random top and left values using JavaScript */
-    top: random value;
-    left: random value;
-    width: 400px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-    z-index: 60; 
-}
 

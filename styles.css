@@ -68,7 +68,7 @@
 .popuptext.show {
     visibility: visible;
     opacity: 1;
-    background-color:aqua;
+    background-color:rgb(255, 74, 147);
 }
 
 .box{

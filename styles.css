@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chokokutai&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asset&display=swap');
+@keyframes mymove {
+  from {background-color:black;}
+  to {background-color:#f22c71;}
+}
 
 .bg{
-    background-color:black;
+    animation: mymove 2s infinite;
 }
 
 .poke{

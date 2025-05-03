@@ -5,7 +5,7 @@ new p5(s);
 let cursorImg;
 
 function preload(){
-  cursorImg=loadImage("cursor.png")
+  cursorImg=loadImage("./images/cursor.png")
 }
 function setup() {
   createCanvas(400, 400);

@@ -7,7 +7,7 @@ function togglePopup(el) {
   let bigWindow;
 
       function openmyWin() {
-      myWindow = window.open("https://shery1-11.github.io/Project2/", "", "width=500, height=100");
+      myWindow = window.open("https://shery1-11.github.io/Project2/", "", "width=500px, height=100px");
       }
 
       function openbigWin(){

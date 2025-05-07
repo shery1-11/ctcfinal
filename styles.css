@@ -13,9 +13,25 @@
 .poke{
     background-color:#e58391;
 }
+
+.button{
+    background-color:aqua;
+    border:none;
+}
+
+.button:hover{
+    background-color:#348c40;
+}
+
 .back{
     background-color:blue;
     color:#e58391;
+}
+
+.note{
+    font-size: 50px;
+    font-family:'Asset';
+    color:#ffffff;
 }
 
 .type{
@@ -108,4 +124,30 @@
     height:auto;
 }
 
+.zoom{
+    transition:transform .2s;
+}
 
+#saturation:hover {
+    -webkit-filter: saturate(6);
+    filter: saturate(6);
+ }
+
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(3.0); 
+  }
+
+#apple {
+    animation: rotation 5s infinite;
+  }
+
+#banana{
+    animation: rotation 2s infinite
+}
+  
+  @keyframes rotation {
+    50% {transform: rotate(360deg);}
+  }
+  

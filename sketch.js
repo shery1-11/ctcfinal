@@ -8,7 +8,6 @@ function preload(){
   cursorImg=loadImage("./images/cursor.png")
 }
 function setup() {
-  createCanvas(400, 400);
    noCursor()
 }
 

@@ -1,5 +1,3 @@
-// make the element draggable
-Draggable.create('.draggable');
 
 function togglePopup(el) {
     const popupText = el.querySelector('.popuptext');
@@ -17,3 +15,17 @@ function togglePopup(el) {
       bigWindow = window.open("https://shery1-11.github.io/Project2/");
       }
   
+      //audio 
+      const buttons = document.querySelectorAll('[data-sound]');
+
+      buttons.forEach(button => {
+        button.addEventListener('click', () => {
+          const soundFile = button.getAttribute('data-sound');
+          playSound(soundFile);
+        });
+      });
+      
+      function playSound(soundFile) {
+        const audio = new Audio(soundFile);
+        audio.play();
+      }
